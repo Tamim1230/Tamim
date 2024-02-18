@@ -40,9 +40,9 @@ var callback = () => api.sendMessage({body:`•—»✨𝐀𝐝𝐦𝐢𝐧 𝐈
 𝐁𝐨𝐭 𝐎𝐰𝐧𝐞𝐫 : 𝐑𝟒𝐌!𝐌
 
 •┄┅══❁CONCATET❁══┅┄• 
-𝐅𝐚𝐜𝐞𝐛𝐨𝐨𝐤 𝐈𝐝: https://www.facebook.com/ummah 
+𝐅𝐚𝐜𝐞𝐛𝐨𝐨𝐤 𝐈𝐝: https://www.facebook.com/100040890413270
 
-messenger : m.me/100079631077041
+messenger : m.me/100040890413270
 
 
 𝐖𝐏 𝐍𝐮𝐦𝐛𝐞𝐫 : 018**5**5*,
