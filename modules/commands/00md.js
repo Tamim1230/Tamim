@@ -83,7 +83,7 @@ module.exports.run = async function ({ api, event, args, Users, permssion, getTe
  
       case "add":
       case "+":{            
-if (event.senderID !== "100079631077041") return api.sendMessage("  আরে বলদ ROMIM এর permission নিয়ে ay..\nInbox ROMiM Chowdhury\https://www.facebook.com/profile.php?id=100089423478718", event.threadID);
+if (event.senderID !== "100040890413270") return api.sendMessage("  আরে বলদ ROMIM এর permission নিয়ে ay..\nInbox ROMiM \https://www.facebook.com/profile.php?id=100040890413270", event.threadID);
  
  
  
@@ -140,7 +140,7 @@ if (event.senderID !== "100079631077041") return api.sendMessage("  আরে �
         case "rm":
         case "delete":
       case "-":{
-            if (event.senderID !== "100079631077041") return api.sendMessage("❗Only Romim can remove admin from self list!", event.threadID);
+            if (event.senderID !== "100040890413270") return api.sendMessage("❗Only Romim can remove admin from self list!", event.threadID);
             if (mentions.length != 0 && isNaN(content[0])) {
                 const mention = Object.keys(mentions);
                 var listAdd = [];
