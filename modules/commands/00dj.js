@@ -1,4 +1,4 @@
-const fs = require("fs");
+!!!!const fs = require("fs");
 module.exports.config = {
 	name: "faltu1x",
     version: "1.1.1",
