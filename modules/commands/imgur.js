@@ -5,6 +5,7 @@ module.exports.config = {
   credits: "Shaon x Romim",
   description: "Random video",
   commandCategory: "short video",
+  usePrefix:false,
   cooldowns: 5,
   dependencies: {
     axios: ""
