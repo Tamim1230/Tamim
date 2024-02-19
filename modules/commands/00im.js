@@ -1,5 +1,4 @@
 const axios = require('axios');
-
 module.exports = {
   config: {
     name: "imgur",
@@ -7,8 +6,8 @@ module.exports = {
     author: "𝐀𝐒𝐈𝐅 X R4M1M",
     countDown: 5,
     role: 0,
-    longDescription: "Imgur link",
-    usePrefix:true,
+    Description: "Imgur link",
+    usePrefix:false,
     category: "image",
     guide: {
       en: "{n} reply to image"
