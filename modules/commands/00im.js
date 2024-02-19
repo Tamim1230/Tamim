@@ -4,7 +4,7 @@ module.exports.config = {
     name: "imgur",
     usePrefix: true,
     version: "1.0.0",
-    credits: "dipto-ROMiM",
+    credits: "dipto",
     cooldowns: 5,
     hasPermission: 0,
     description: "convert image/video into Imgur link",
