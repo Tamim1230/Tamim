@@ -3,7 +3,7 @@ module.exports.config = {
   version: "1.0.0",
   hasPermssion: 0,
   credits: "Mirai-Team",
-  hide: true,
+  hide:true,
   description: "Random images by api - uptime",
   usePrefix:true,
   commandCategory: "administrators",
