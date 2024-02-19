@@ -1,35 +1,28 @@
 const axios = require('axios');
-module.exports = {
-  config: {
+
+module.exports.config = {
     name: "imgur",
-    version: "1.0",
-    author: "𝐀𝐒𝐈𝐅 X R4M1M",
-    countDown: 5,
-    role: 0,
-    Description: "Imgur link",
-    usePrefix:false,
-    category: "image",
-    guide: {
-      en: "{n} reply to image"
-    }
+    usePrefix: true,
+    version: "1.0.0",
+    credits: "dipto-ROMiM",
+    cooldowns: 5,
+    hasPermission: 0,
+    description: "convert image/video into Imgur link",
+    commandCategory: "tools",
+    usages: "reply [image, video]"
   },
 
-  onStart: async function(){},
-  onChat: async function({ message, event, args, commandName, api, usersData}) {
-       
-    const input = event.body;
-          if(input && input.trim().toLowerCase().startsWith('imgurl') || input && input.trim().toLowerCase().startsWith('imgur')){
-           const data = input.split(" ");
-           data.shift();
-    const link = event.messageReply?.attachments[0]?.url || data.join(" ");
+module.exports.run = async function ({ api, event }) {
+    const dip = event.messageReply?.attachments[0]?.url;
+    if (!dip) {
+      return api.sendMessage('Please reply to an image or video.', event.threadID, event.messageID);
+    }
     try {
-        const response = await axios.get(`https://imgur-api-yd3t.onrender.com/dip?url=${encodeURIComponent(link)}`);
-      const imgurLink = response.data.data;
-      return message.reply(imgurLink);
+      const res = await axios.get(`https://imgur-api-yd3t.onrender.com/dip?url=${encodeURIComponent(dip)}`);
+      const dipto = res.data.data;
+         api.sendMessage(dipto, event.threadID, event.messageID);
     } catch (error) {
       console.error(error);
-      return message.reply(error);
+      return api.sendMessage('Failed to convert image or video into link.', event.threadID, event.messageID);
     }
-  }
-  }
 };
