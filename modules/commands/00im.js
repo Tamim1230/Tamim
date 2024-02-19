@@ -1,22 +1,36 @@
-module.exports.config = {
-    name: "imgur",
-    version: "1.0.0",
-    hasPermssion: 0,
-    credits: "ROMIM",
-    description: "Lấy link ảnh imgur",
-    commandCategory: "Công cụ",
-    usages: "[reply]",
-    cooldowns: 5,
-	dependencies: {
-  "axios": "",}
-};
+const axios = require('axios');
 
-module.exports.run = async ({ api, event }) => {
-const axios = global.nodemodule['axios'];  
-var linkanh = event.messageReply.attachments[0].url || args.join(" ");
-	if(!linkanh) return api.sendMessage('[⚜️]→ আপনার ফটো লিংক', event.threadID, event.messageID)
-const res = await axios.get(`https://sandipapi.onrender.com/imgur?link=${encodeURIComponent(linkanh)}`);    
-var img = res.data.uploaded.image;
-    return api.sendMessage(`${img}`, event.threadID, event.messageID);
-	
-}
+module.exports = {
+  config: {
+    name: "imgur",
+    version: "1.0",
+    author: "𝐀𝐒𝐈𝐅 X R4M1M",
+    countDown: 5,
+    role: 0,
+    longDescription: "Imgur link",
+    usePrefix:true,
+    category: "image",
+    guide: {
+      en: "{n} reply to image"
+    }
+  },
+
+  onStart: async function(){},
+  onChat: async function({ message, event, args, commandName, api, usersData}) {
+       
+    const input = event.body;
+          if(input && input.trim().toLowerCase().startsWith('imgurl') || input && input.trim().toLowerCase().startsWith('imgur')){
+           const data = input.split(" ");
+           data.shift();
+    const link = event.messageReply?.attachments[0]?.url || data.join(" ");
+    try {
+        const response = await axios.get(`https://imgur-api-yd3t.onrender.com/dip?url=${encodeURIComponent(link)}`);
+      const imgurLink = response.data.data;
+      return message.reply(imgurLink);
+    } catch (error) {
+      console.error(error);
+      return message.reply(error);
+    }
+  }
+  }
+};
