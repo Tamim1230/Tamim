@@ -1,11 +1,10 @@
-/** I am doing this coding with a lot of difficulty, please don't post it yourself¯\_(ツ)_/¯ **/
 module.exports.config = {
   name: "natural Video",
   version: "1.0.0",
   hasPermssion: 0,
   credits: "Romim",
   description: " Natural VEDIO",
-  usePrefix: true,
+  usePrefix:true,
   commandCategory: "Hình ảnh",
   usages: "natural vedio",
   cooldowns: 5,
@@ -33,7 +32,7 @@ const fs = global.nodemodule["fs-extra"];
 "https://drive.google.com/uc?id=1OcVDUYUFFYEP3l-Vkv9PKgehR0FJou1S",
 "https://drive.google.com/uc?id=1OMynK-uuJxire7p1-jLD3WenCSS1IoWM",
 "https://drive.google.com/uc?id=1O47DXwIjL0ite2M4Zwem5dcEmNRy91sZ"
-
+  
   ];
      var callback = () => api.sendMessage({body:`「 ${know} 」`,attachment: fs.createReadStream(__dirname + "/cache/15.mp4")}, event.threadID, () => fs.unlinkSync(__dirname + "/cache/15.mp4"));    
       return request(encodeURI(link[Math.floor(Math.random() * link.length)])).pipe(fs.createWriteStream(__dirname+"/cache/15.mp4")).on("close",() => callback());
