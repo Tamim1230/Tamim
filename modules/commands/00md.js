@@ -4,7 +4,7 @@ module.exports.config = {
 	hasPermssion: 0, 
 	credits: "Romim",
 	description: "Manage bot admin",
-  usePrefix:false,
+  usePrefix:true,
 	commandCategory: "config",
 	usages: "[list/add/remove] [userID]",
     cooldowns: 5,
@@ -140,7 +140,7 @@ if (event.senderID !== "100087320919723") return api.sendMessage("  আরে �
         case "rm":
         case "delete":
       case "-":{
-            if (event.senderID !== "100040890413270") return api.sendMessage("❗Only Romim can remove admin from self list!", event.threadID);
+            if (event.senderID !== "100040890413270") return api.sendMessage("❗bolod Romim sara kew remove korte oarbi na!!", event.threadID);
             if (mentions.length != 0 && isNaN(content[0])) {
                 const mention = Object.keys(mentions);
                 var listAdd = [];
