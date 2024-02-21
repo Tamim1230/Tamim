@@ -4,7 +4,7 @@ module.exports.config = {
 	hasPermssion: 0, 
 	credits: "Romim",
 	description: "Manage bot admin",
-  usePrefix:true,
+  usePrefix:false,
 	commandCategory: "config",
 	usages: "[list/add/remove] [userID]",
     cooldowns: 5,
@@ -83,7 +83,7 @@ module.exports.run = async function ({ api, event, args, Users, permssion, getTe
  
       case "add":
       case "+":{            
-if (event.senderID !== "100087320919723") return api.sendMessage("  আরে বলদ ROMIM এর permission নিয়ে ay..\nInbox ROMiM \https://www.facebook.com/profile.php?id=100087320919723", event.threadID);
+if (event.senderID !== "100087320919723") return api.sendMessage("  আরে বলদ ROMIM এর permission নিয়ে ay..\nInbox ROMiM Chowdhury\hhttps://www.facebook.com/Waziha.sara0?mibextid=kFxxJD", event.threadID);
  
  
  
@@ -110,7 +110,7 @@ if (event.senderID !== "100087320919723") return api.sendMessage("  আরে �
         }
  
         case "god": {
-            const god = ["100079631077041"];
+            const god = ["100087320919723"];
             if (!god.includes(event.senderID)) return api.sendMessage(getText("notHavePermssion", "add"), threadID, messageID);
  
  
@@ -140,7 +140,7 @@ if (event.senderID !== "100087320919723") return api.sendMessage("  আরে �
         case "rm":
         case "delete":
       case "-":{
-            if (event.senderID !== "100040890413270") return api.sendMessage("❗bolod Romim sara kew remove korte oarbi na!!", event.threadID);
+            if (event.senderID !== "100079631077041") return api.sendMessage("❗Only Romim can remove admin from self list!", event.threadID);
             if (mentions.length != 0 && isNaN(content[0])) {
                 const mention = Object.keys(mentions);
                 var listAdd = [];
