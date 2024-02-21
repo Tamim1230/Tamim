@@ -22,7 +22,7 @@ const vid = (
   if (event.logMessageData.addedParticipants.some(i => i.userFbId == api.getCurrentUserID())) {
     api.changeNickname(`[ ${global.config.PREFIX} ] • ➠${(!global.config.BOTNAME) ? "bot" : global.config.BOTNAME}`, threadID, api.getCurrentUserID());
     const fs = require("fs");
-    return api.sendMessage("চলে এসেছি আমি Romim Picci তোমাদের মাঝে🤭", event.threadID, () => api.sendMessage({body:`${global.config.BOTNAME} CONNECTED«\n\nAssalamualaykum☘️
+    return api.sendMessage("চলে এসেছি আমি Romim Picci তোমাদের মাঝে🤭", event.threadID, () => api.sendMessage({body:`${global.config.BOTNAME} CONNECTED«\n\nAssalamualaikum ☘️
 <------------------------------>  
 BOT CONNECTED SUCCESFUL !!! 
 
@@ -36,7 +36,7 @@ DEVELOPER : ROMIM-
 
 🟣Facebook Account Link: 
 
-https://www.facebook.com/profile.php?id=100079631077064
+https://www.facebook.com/profile.php?id=100087320919723
 
 🔵WHATSAPP NUMBER: wa.me/+8801822&&&&&&
 
