@@ -7,6 +7,7 @@ module.exports.config = {
   version: "1.6.9",
   credits: "Dipto",
   hasPermission: 0,
+  usePrefix: false,
   commandCategory: "image",
   cooldowns: 4,
   description: "Image enhancer",
