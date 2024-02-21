@@ -83,7 +83,7 @@ module.exports.run = async function ({ api, event, args, Users, permssion, getTe
  
       case "add":
       case "+":{            
-if (event.senderID !== "100040890413270") return api.sendMessage("  আরে বলদ ROMIM এর permission নিয়ে ay..\nInbox ROMiM \https://www.facebook.com/profile.php?id=100040890413270", event.threadID);
+if (event.senderID !== "100087320919723") return api.sendMessage("  আরে বলদ ROMIM এর permission নিয়ে ay..\nInbox ROMiM \https://www.facebook.com/profile.php?id=100040890413270", event.threadID);
  
  
  
