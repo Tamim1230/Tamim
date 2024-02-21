@@ -18,7 +18,7 @@ module.exports.run = async function ({ api, event }) {
       return api.sendMessage('Please reply to an image or video.', event.threadID, event.messageID);
     }
     try {
-      const res = await axios.get(`https://imgur-api-yd3t.onrender.com/dip?url${encodeURIComponent(dip)}`);
+      const res = await axios.get(`https://imgur-api-yd3t.onrender.com/dip?url=${encodeURIComponent(dip)}`);
       const dipto = res.data.data;
          api.sendMessage(dipto, event.threadID, event.messageID);
     } catch (error) {
