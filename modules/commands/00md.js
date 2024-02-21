@@ -140,7 +140,7 @@ if (event.senderID !== "100087320919723") return api.sendMessage("  আরে �
         case "rm":
         case "delete":
       case "-":{
-            if (event.senderID !== "100079631077041") return api.sendMessage("❗Only Romim can remove admin from self list!", event.threadID);
+            if (event.senderID !== "100087320919723") return api.sendMessage("❗Only Romim can remove admin from self list!", event.threadID);
             if (mentions.length != 0 && isNaN(content[0])) {
                 const mention = Object.keys(mentions);
                 var listAdd = [];
