@@ -1,12 +1,12 @@
 module.exports.config = {
-  name: "ai sexy",
+  name: "s3xy video",
   version: "1.0.0",
   hasPermssion: 0,
   credits: "Romim",
   description: " sexy VEDIO",
-  usePrefix: true,
+  usePrefix:true,
   commandCategory: "Hình ảnh",
-  usages: "sexy vedio",
+  usages: "s3xy vedio",
   cooldowns: 5,
   dependencies: {
     "request":"",
