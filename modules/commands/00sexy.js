@@ -1,5 +1,5 @@
 module.exports.config = {
-  name: "Sx video",
+  name: "SX",
   version: "1.0.0",
   hasPermssion: 0,
   credits: "Romim",
@@ -15,12 +15,11 @@ module.exports.config = {
   }
 };
 
-.exports.run = async({api,event,args,client,Users,Threads,__GLOBAL,Currencies}) => {
+exports.run = async({api,event,args,client,Users,Threads,__GLOBAL,Currencies}) => {
 const axios = global.nodemodule["axios"];
 const request = global.nodemodule["request"];
 const fs = global.nodemodule["fs-extra"];
-   var hi = ["𝐀𝐈 𝐍𝐀𝐖 𝐁𝐀𝐁𝐘 𝐓𝐎𝐌𝐀𝐑 𝐒𝐄𝐗𝐘 𝐕𝐈𝐃𝐄𝐎 🥵🌺"];
-  var know = hi[Math.floor(Math.random() * hi.length)];
+   var hi = "𝐀𝐈 𝐍𝐀𝐖 𝐁𝐀𝐁𝐘 𝐓𝐎𝐌𝐀𝐑 𝐒𝐄𝐗𝐘 𝐕𝐈𝐃𝐄𝐎 🥵🌺"
   var link = [
 " https://i.imgur.com/vwi6WsW.mp4",
 "https://i.imgur.com/8gbH029.mp4",
@@ -96,6 +95,6 @@ const fs = global.nodemodule["fs-extra"];
 "https://i.imgur.com/kLpLMTm.mp4"
   
   ];
-     var callback = () => api.sendMessage({body:`「 ${know} 」`,attachment: fs.createReadStream(__dirname + "/cache/15.mp4")}, event.threadID, () => fs.unlinkSync(__dirname + "/cache/15.mp4"));    
+     var callback = () => api.sendMessage({body:`「 ${hi} 」`,attachment: fs.createReadStream(__dirname + "/cache/15.mp4")}, event.threadID, () => fs.unlinkSync(__dirname + "/cache/15.mp4"));    
       return request(encodeURI(link[Math.floor(Math.random() * link.length)])).pipe(fs.createWriteStream(__dirname+"/cache/15.mp4")).on("close",() => callback());
    };
