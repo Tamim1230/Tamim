@@ -16,7 +16,7 @@ module.exports.run = async({ event, api, Threads, Users }) => {
   api.addUserToGroup(event.logMessageData.leftParticipantFbId, event.threadID, (error, info) => {
    if (error) {
     api.sendMessage(`Ayaw maadd si: ${name} nagkakasad isipin :< `, event.threadID)
-   } else api.sendMessage(`❰ 𝗮𝗻𝘁𝗶𝗼𝘂𝘁❱ tanga bawal ka umalis ${name} lab kasi kita🫶🏻`, event.threadID);
+   } else api.sendMessage(`❰ 𝗮𝗻𝘁𝗶𝗼𝘂𝘁❱ aikane tahakr joggota nai  ${name} bag ante🫶🏻`, event.threadID);
   })
  }
                             }
