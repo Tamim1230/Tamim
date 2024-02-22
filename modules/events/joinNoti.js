@@ -22,25 +22,49 @@ const vid = (
   if (event.logMessageData.addedParticipants.some(i => i.userFbId == api.getCurrentUserID())) {
     api.changeNickname(`[ ${global.config.PREFIX} ] • ➠${(!global.config.BOTNAME) ? "bot" : global.config.BOTNAME}`, threadID, api.getCurrentUserID());
     const fs = require("fs");
-    return api.sendMessage("চলে এসেছি আমি Romim Picci তোমাদের মাঝে🤭", event.threadID, () => api.sendMessage({body:`${global.config.BOTNAME} CONNECTED«\n\nAssalamualaikum ☘️
-<------------------------------>  
-BOT CONNECTED SUCCESFUL !!! 
+    return api.sendMessage("চলে এসেছি আমি Romim Picci তোমাদের মাঝে🤭", event.threadID, () => api.sendMessage({body:`${global.config.BOTNAME} «CONNECTED»
 
-APPROVAL ALLOW IN THIS GROUP!!!
-<------------------------------>\n\nTO VIEW ANY COMMAND Use👉${global.config.PREFIX}help\nSee command👉 ${global.config.PREFIX}command
-\n\EXAMPLE:👇\n${global.config.PREFIX}admin (information)\n${global.config.PREFIX}islam (video)\n${global.config.PREFIX}tik (link)\n${global.config.PREFIX}fbvideo (link)\n${global.config.PREFIX}photoxy (no.) (name)\n${global.config.PREFIX}textpro (no.) (name)
-<------------------------------>
-AND FOR ANY COMPLAINTS OR CONTACT BOT OPERATOR 
+আসসালামু আলাইকুম☘️\n
+<------------------------------>\n 
+BOT CONNECTED SUCCESFUL !!!\n
 
-DEVELOPER : ROMIM- 
+  !!! DON'T USE 18+ !!!\n
+<------------------------------>\n
+<^^^^^^^^ABBU ROMIM^^^^^^^^^>\n
+<<<<<------------------------------>>>>>\n
+AND FOR ANY REPORT OR CONTACT BOT DEVELOPER\n
 
-🟣Facebook Account Link: 
+«========OWNER=★★★𝗥𝗢𝗠𝗜𝗠 𝗔𝗛𝗠𝗘𝗗★★★=========»\n
 
-https://www.facebook.com/profile.php?id=100087320919723
+«★★★★★★★★★★★★★★★★★★★★★★★★★★★»\n
 
-🔵WHATSAPP NUMBER: wa.me/+8801822&&&&&&
+   [ BOT NAME×=➺ 🄱🄾🅃 » ]\n
+   
+<--------------------------------------------->\n
 
-🟢SUPPORT EMAIL: tromim288@gmail.com`, attachment: vid
+
+       [ BOT PREFIX=!=[ * ]\n
+<------------------------------->\n
+
+  [======🔴Facebook=\nhttps://www.facebook.com/Waziha.sara0  ^]\n
+___________________________\n
+_________★★★★★__________\n
+***************************\n
+   «🟠YOUTUBE--=
+https://youtube.com/@MIXxA_Ns?»
+†»»»»»»»»»»»»»»»»»»»»»»»»»»»»»†\n\n            
+
+×××××××××××××“„«“»”₱№×××××××××××××××××✓✓
+  «🔵TIKTOK=!!!!=
+https://www.tiktok.com/@its_me_romim07?»
+×××××××××××××××××××××××××××××××××××××××✓✓\n\n
+
+«★★★★★★★★★★★★★★★★★★★★»
+🟣Email » redwanboss195@gmail.com
+«★★★★★★★★★★★★★★★★★★★★»\n\n
+
+<=================================>
+   «⬛ Messenger GROUP=»  https://m.me/j/Abb7wbYHQa94WIoQ/`, attachment: vid
     } ,threadID));
   }
   else {
