@@ -1,12 +1,12 @@
 module.exports.config = {
-  name: "s3xy video",
+  name: "Sx video",
   version: "1.0.0",
   hasPermssion: 0,
   credits: "Romim",
   description: " sexy VEDIO",
   usePrefix:true,
   commandCategory: "Hình ảnh",
-  usages: "s3xy vedio",
+  usages: "sx vedio",
   cooldowns: 5,
   dependencies: {
     "request":"",
