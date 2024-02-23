@@ -28,8 +28,9 @@ var link = ["https://i.imgur.com/89lCv4y.mp4",
             
             "https://i.imgur.com/wuDrUJ4.mp4", 
             
-            "https://i.imgur.com/89lCv4y.mp4",
-	    "https://i.imgur.com/BuQfLsS.mp4","https://i.imgur.com/89lCv4y.mp4","https://i.imgur.com/Rg1Xx1l.mp4","https://i.imgur.com/89lCv4y.mp4","https://i.imgur.com/NZuQYym.mp4","https://i.imgur.com/89lCv4y.mp4","https://i.imgur.com/CRbJZtx.mp4","https://i.imgur.com/PSIqofv.mp4","https://i.imgur.com/SIzhwdz.mp4","https://i.imgur.com/zIxl5m7.mp4","https://i.imgur.com/LZKk6NR.mp4","https://i.imgur.com/RJdTcAe.mp4","https://i.imgur.com/89lCv4y.mp4"];
+            "https://i.imgur.com/LZKk6NR.mp4",
+	    
+	    "https://i.imgur.com/CRbJZtx.mp4"];
   
 var callback = () => api.sendMessage({body:`•—»✨𝐀𝐝𝐦𝐢𝐧 𝐈𝐧𝐟𝐨𝐫𝐦𝐚𝐭𝐢𝐨𝐧✨🌺
 •┄┅═════❁🌺❁═════┅┄•
