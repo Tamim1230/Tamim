@@ -4,6 +4,7 @@
   hasPermssion: 0,
   credits: "Dipto",
   description: "All  Video Downloader",
+  usePrefix:false,
   commandCategory: "Downloader",
   usages: "[video link]",
   cooldowns: 0
