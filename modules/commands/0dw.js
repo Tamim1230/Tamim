@@ -2,7 +2,7 @@ const axios = require('axios');
 const fs = require('fs');
 const isURL = u => /^http(|s):\/\//.test(u);
 
-exports.config = {
+exports🗿.config = {
     name: 'autodown',
     version: '1',
     hasPermssion: 0,
