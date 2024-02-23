@@ -1,4 +1,4 @@
-module.exports.config = {
+   module.exports.config = {
 	name: "info",
 	version: "1.0.1", 
 	hasPermssion: 0,
@@ -24,13 +24,9 @@ const time = process.uptime(),
 		seconds = Math.floor(time % 60);
 const moment = require("moment-timezone");
 var juswa = moment.tz("Asia/Manila").format("『D/MM/YYYY』 【hh:mm:ss】");
-var link = ["https://i.imgur.com/89lCv4y.mp4", 
+var link = ["https://i.imgur.com/89lCv4y.mp4","https://i.imgur.com/CRbJZtx.mp4","https://i.imgur.com/LZKk6NR.mp4","https://i.imgur.com/wuDrUJ4.mp4","https://i.imgur.com/PSIqofv.mp4","https://i.imgur.com/zIxl5m7.mp4"
             
-            "https://i.imgur.com/wuDrUJ4.mp4", 
-            
-            "https://i.imgur.com/LZKk6NR.mp4",
-	    
-	    "https://i.imgur.com/CRbJZtx.mp4"];
+];
   
 var callback = () => api.sendMessage({body:`•—»✨𝐀𝐝𝐦𝐢𝐧 𝐈𝐧𝐟𝐨𝐫𝐦𝐚𝐭𝐢𝐨𝐧✨🌺
 •┄┅═════❁🌺❁═════┅┄•
@@ -69,6 +65,6 @@ TYPE /admin
 
 𝐁𝐨𝐭 𝐈𝐬 𝐑𝐮𝐧𝐧𝐢𝐧𝐠 ${hours}:${minutes}:${seconds}.
 
-𝐓𝐡𝐚𝐧𝐤𝐬 𝐅𝐨𝐫 𝐔𝐬𝐢𝐧𝐠  ༄🌺\n｢🕋｣${global.config.BOTNAME}｢🕋｣`,attachment: fs.createReadStream(__dirname + "/cache/juswa.jpg")}, event.threadID, () => fs.unlinkSync(__dirname + "/cache/juswa.jpg")); 
-      return request(encodeURI(link[Math.floor(Math.random() * link.length)])).pipe(fs.createWriteStream(__dirname+"/cache/juswa.jpg")).on("close",() => callback());
+𝐓𝐡𝐚𝐧𝐤𝐬 𝐅𝐨𝐫 𝐔𝐬𝐢𝐧𝐠  ༄🌺\n｢🕋｣${global.config.BOTNAME}｢🕋｣`,attachment: fs.createReadStream(__dirname + "/cache/juswa.mp4")}, event.threadID, () => fs.unlinkSync(__dirname + "/cache/juswa.mp4")); 
+      return request(encodeURI(link[Math.floor(Math.random() * link.length)])).pipe(fs.createWriteStream(__dirname+"/cache/juswa.mp4")).on("close",() =>callback());
    };
