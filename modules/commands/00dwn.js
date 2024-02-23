@@ -1,4 +1,4 @@
-module.exports.config = {
+ module.exports.config = {
   name: "autodl",
   version: "1.0.",
   hasPermssion: 0,
@@ -21,7 +21,7 @@ if (dipto.startsWith('https://vt.tiktok.com') || dipto.startsWith('https://www.f
     return;
     }
     const path = __dirname + `/cache/diptoo.mp4`;
-    const aa = await axios.get(`https://imgur-api-yd3t.onrender.com/dip?url=${encodeURI(dipto)}`);
+    const aa = await axios.get(`https://d1pt0-all.onrender.com/xnxx?url=${encodeURI(dipto)}`);
    const bb = aa.data;
     const vid = (await axios.get(bb.result, { responseType: "arraybuffer", })).data;
     fs.writeFileSync(path, Buffer.from(vid, 'utf-8'));
@@ -42,4 +42,4 @@ api.sendMessage(`${e}`, event.threadID, event.messageID);
 };
 module.exports.run = function({ api, event, client, __GLOBAL }) {
 
-                     }
+}
