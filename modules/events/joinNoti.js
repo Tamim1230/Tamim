@@ -12,7 +12,7 @@ module.exports.run = async function({ api, event }) {
   const axios = require("axios")
 const vid = (
     await axios.get(
-      'https://drive.google.com/uc?id=1BSCLgGsSDPmtFP49tgxLuX-p2SE8HcCd',
+      'https://i.imgur.com/Rg1Xx1l.mp4',
       { responseType: 'stream' }
     )
   ).data;
@@ -22,49 +22,49 @@ const vid = (
   if (event.logMessageData.addedParticipants.some(i => i.userFbId == api.getCurrentUserID())) {
     api.changeNickname(`[ ${global.config.PREFIX} ] • ➠${(!global.config.BOTNAME) ? "bot" : global.config.BOTNAME}`, threadID, api.getCurrentUserID());
     const fs = require("fs");
-    return api.sendMessage("চলে এসেছি আমি Romim Picci তোমাদের মাঝে🤭", event.threadID, () => api.sendMessage({body:`${global.config.BOTNAME} «CONNECTED»
+    return api.sendMessage("চলে এসেছি আমি TAMIM Picci তোমাদের মাঝে🤭", event.threadID, () => api.sendMessage({body:`${global.config.BOTNAME} ➺CONNECTED«\n\nআসসালামু আলাইকুম☘️\n
+<------------------------------> \n\n 
+BOT CONNECTED SUCCESFUL !!!\n 
 
-আসসালামু আলাইকুম☘️\n
-<------------------------------>\n 
-BOT CONNECTED SUCCESFUL !!!\n
-
-  !!! DON'T USE 18+ !!!\n
+APPROVAL ALLOW IN THIS GROUP!!!\n
 <------------------------------>\n
-<^^^^^^^^ABBU ROMIM^^^^^^^^^>\n
+<^^^^^^^^ABBU TAMIM^^^^^^^^^^^^^>\n
 <<<<<------------------------------>>>>>\n
 AND FOR ANY REPORT OR CONTACT BOT DEVELOPER\n
 
-«========OWNER=★★★𝗥𝗢𝗠𝗜𝗠 𝗔𝗛𝗠𝗘𝗗★★★=========»\n
+«========OWNER:★★★TAMIM★★★=========»\n
 
-«★★★★★★★★★★★★★★★★★★★★★★★★★★★»\n
+«★★★★★★★★★★★✓★★★★★★★★★★★★★★★★»\n
 
-   [ BOT NAME×=➺ 🄱🄾🅃 » ]\n
+   [ BOT NAME:="➺TAMIM BOT ] \n\n
    
 <--------------------------------------------->\n
 
 
-       [ BOT PREFIX=!=[ * ]\n
+       [ BOT PREFIX:!=[ # ]\n
 <------------------------------->\n
 
-  [======🔴Facebook=\nhttps://www.facebook.com/Waziha.sara0  ^]\n
+  [======♻️Facebook:\n 
+
+Www.facebook.com/Tamim=====^]\n
 ___________________________\n
 _________★★★★★__________\n
 ***************************\n
-   «🟠YOUTUBE--=
-https://youtube.com/@MIXxA_Ns?»
-†»»»»»»»»»»»»»»»»»»»»»»»»»»»»»†\n\n            
+   «YOUTUBE--=
+ki janj
+†»»»»»»»»»»»»»»»»»»»»»»»»»»»»»† \n          
 
 ×××××××××××××“„«“»”₱№×××××××××××××××××✓✓
-  «🔵TIKTOK=!!!!=
-https://www.tiktok.com/@its_me_romim07?»
-×××××××××××××××××××××××××××××××××××××××✓✓\n\n
+  «TIKTOK:=!!!!=
+
+×××××××××××××××××××××××××××××××××××××××✓✓\n
 
 «★★★★★★★★★★★★★★★★★★★★»
-🟣Email » redwanboss195@gmail.com
-«★★★★★★★★★★★★★★★★★★★★»\n\n
+☣️Email: 
+«★★★★★★★★★★★★★★★★★★★★»\n
 
 <=================================>
-   «⬛ Messenger GROUP=»  https://m.me/j/Abb7wbYHQa94WIoQ/`, attachment: vid
+   « Messenger GROUP=!!!!!!!!                     https://m.me/j/Abb7wbYHQa94WIoQ/`, attachment: vid
     } ,threadID));
   }
   else {
