@@ -24,28 +24,28 @@ const time = process.uptime(),
 		seconds = Math.floor(time % 60);
 const moment = require("moment-timezone");
 var juswa = moment.tz("Asia/Manila").format("『D/MM/YYYY』 【hh:mm:ss】");
-var link = ["https://i.imgur.com/89lCv4y.mp4","https://i.imgur.com/CRbJZtx.mp4","https://i.imgur.com/LZKk6NR.mp4","https://i.imgur.com/wuDrUJ4.mp4","https://i.imgur.com/PSIqofv.mp4","https://i.imgur.com/zIxl5m7.mp4"
+var link = ["https://i.imgur.com/CRbJZtx.mp4","https://i.imgur.com/LZKk6NR.mp4","https://i.imgur.com/wuDrUJ4.mp4","https://i.imgur.com/PSIqofv.mp4","https://i.imgur.com/zIxl5m7.mp4"
             
 ];
   
 var callback = () => api.sendMessage({body:`•—»✨𝐀𝐝𝐦𝐢𝐧 𝐈𝐧𝐟𝐨𝐫𝐦𝐚𝐭𝐢𝐨𝐧✨🌺
 •┄┅═════❁🌺❁═════┅┄•
 
- 𝐁𝐨𝐭 𝐍𝐚𝐦𝐞 :🅁🄾🄼🄸🄼 🄱🄾🅃
+ 𝐁𝐨𝐭 𝐍𝐚𝐦𝐞 :TAMIM 🄱🄾🅃
 
-𝐁𝐨𝐭 𝐀𝐝𝐦𝐢𝐧 : ʀᴏᴍɪᴍ ᴀʜᴍᴇᴅ 
+𝐁𝐨𝐭 𝐀𝐝𝐦𝐢𝐧 : TAMIM ᴀʜᴍᴇᴅ 
 
-𝐁𝐨𝐭 𝐎𝐰𝐧𝐞𝐫 : 𝐑𝟒𝐌!𝐌
+𝐁𝐨𝐭 𝐎𝐰𝐧𝐞𝐫 : TAMIM
 
 •┄┅══❁CONCATET❁══┅┄• 
-𝐅𝐚𝐜𝐞𝐛𝐨𝐨𝐤 𝐈𝐝: https://www.facebook.com/100087320919723
+𝐅𝐚𝐜𝐞𝐛𝐨𝐨𝐤 𝐈𝐝: https://www.facebook.com/100061145118425
 
-messenger : m.me/100087320919723
+messenger : m.me/100061145118425
 
 
-𝐖𝐏 𝐍𝐮𝐦𝐛𝐞𝐫 : 018**5**5*,
+𝐖𝐏 𝐍𝐮𝐦𝐛𝐞𝐫 : jani na
 
-𝐒𝐞𝐚𝐫𝐜𝐡 Tiktok: https://www.tiktok.com/@its_me_romim07
+𝐒𝐞𝐚𝐫𝐜𝐡 Tiktok: potibodni na
 
 
 
@@ -53,11 +53,11 @@ messenger : m.me/100087320919723
 
 TYPE /admin 
 
-𝐁𝐨𝐭 𝐍𝐚𝐦𝐞 : 🅁🄾🄼🄸🄼 🄱🄾🅃
+𝐁𝐨𝐭 𝐍𝐚𝐦𝐞 : TAMIK BOT
 
 𝐁𝐨𝐭 𝐏𝐫𝐞𝐟𝐢𝐱 : ${global.config.PREFIX}
 
-𝐁𝐨𝐭 𝐎𝐰𝐧𝐞𝐫 : 𝗥𝗢𝗠𝗜𝗠 𝗔𝗛𝗠𝗘𝗗
+𝐁𝐨𝐭 𝐎𝐰𝐧𝐞𝐫 : TAMIM
 
 •—»✨ 𝐔𝐩𝐭𝐢𝐦𝐞
 
