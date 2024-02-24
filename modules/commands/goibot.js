@@ -25,12 +25,12 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
      return api.sendMessage("╭──────────────────╮                   কিছু বুঝো না 😒 খালি কি কি কর 😪 চিপায় চলো বুজাই দিতাছি 😾৷   ╰──────────────────╯", threadID);
    };
 
-    if ((event.body.toLowerCase() == "😘") || (event.body.toLowerCase() == "😽/")) {
+    if ((event.body.toLowerCase() == "😘") || (event.body.toLowerCase() == "😽///")) {
      return api.sendMessage("╭──────────────────╮                   কিস দিও না জান 🥀 আমার লজ্জা লাগে তো ╰──────────────────╯", threadID);
    };
 
     if ((event.body.toLowerCase() == "👍/") || (event.body.toLowerCase() =="lik888e")) {
-     return api.sendMessage("╭──────────────────╮                   কিরে বোকাচোদা গুরুপে রমিমের অনুমতি ছাড়া লাইক চোদাও কেন 🐸 থাপ্পড় দিয়ে দাত ফলাই দিমু 🦷   ╰──────────────────╯", threadID);
+     return api.sendMessage("╭──────────────────╮                   কিরে বোকাচোদা গুরুপে TAMIM অনুমতি ছাড়া লাইক চোদাও কেন 🐸 থাপ্পড় দিয়ে দাত ফলাই দিমু 🦷   ╰──────────────────╯", threadID);
    };
 
    if ((event.body.toLowerCase() == "/") || (event.body.toLowerCase() == "/")) {
@@ -38,11 +38,11 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
    };
 
    if ((event.body.toLowerCase() == "hi777") || (event.body.toLowerCase() == "hello999") ||(event.body.toLowerCase() == "hlw777") || (event.body.toLowerCase() == "hel777o!")) {
-     return api.sendMessage("╭──────────────────╮                     হুম বলো কি বলতে চাও 😊 কোনো দরকার থাকলে আমার বস রমিম কে নক দিতে পারো   ╰──────────────────╯", threadID);
+     return api.sendMessage("╭──────────────────╮                     হুম বলো কি বলতে চাও 😊 কোনো দরকার থাকলে আমার বস TAMIM কে নক দিতে পারো   ╰──────────────────╯", threadID);
    };
 
    if ((event.body.toLowerCase() == "o999i") || (event.body.toLowerCase() == "ja77n")) {
-     return api.sendMessage("╭──────────────────╮                     এই তো জান আমি 🙃 কি বলবা বলো 🐸 বেশি দরকার হলে রমিমের ইনবক্সে জাও 😚 ╰──────────────────╯", threadID);
+     return api.sendMessage("╭──────────────────╮                     এই তো জান আমি 🙃 কি বলবা বলো 🐸 বেশি দরকার হলে TAMIN ইনবক্সে জাও 😚 ╰──────────────────╯", threadID);
    };
 
    if ((event.body.toLowerCase() == "l/") || (event.body.toLowerCase() == "leg8888end")) {
@@ -57,14 +57,14 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
      return api.sendMessage("╭──────────────────╮                    বেশি না না করস কেন 🐸👉  ╰──────────────────╯", threadID);
    };
 
-   if ((event.body.toLowerCase() == "romim") || (event.body.toLowerCase() ==  "রমিম") || (event.body.toLowerCase() == "admin") || (event.body.toLowerCase() == "Romim")) {
-     return api.sendMessage( "╭──────────────────╮                    আমার বস রমিম কে ডাকছো কেনো 🙈 GF দিবা নাকি 🤔  ╰──────────────────╯",threadID);
+   if ((event.body.toLowerCase() == "Tamim") || (event.body.toLowerCase() ==  "tamim") || (event.body.toLowerCase() == "admin") || (event.body.toLowerCase() == "TAMIM")) {
+     return api.sendMessage( "╭──────────────────╮                    আমার বস TAMIM কে ডাকছো কেনো 🙈 GF দিবা নাকি 🤔  ╰──────────────────╯",threadID);
 
 
    };
 
    if ((event.body.toLowerCase() == "owner") || (event.body.toLowerCase() == "create you")) {
-     return api.sendMessage("‎[𝐎𝐖𝐍𝐄𝐑:☞𝗥𝗢𝗠𝗜𝗠(✷‿✷)☜\n𝚈𝚘𝚞 𝙲𝚊𝚗 𝙲𝚊𝚕𝚕 𝙷𝚒𝚖 𝐑𝟒𝐌!𝐌.\n𝐇𝐢𝐬 𝐅𝐚𝐜𝐞𝐛𝐨𝐨𝐤 𝐢𝐝 :- https://www.facebook.com/Sexy jinis\nContact Him on WhatsApp :- +880182*5****8", threadID);
+     return api.sendMessage("‎[𝐎𝐖𝐍𝐄𝐑:☞TAMIM(✷‿✷)☜\n𝚈𝚘𝚞 𝙲𝚊𝚗 𝙲𝚊𝚕𝚕 𝙷𝚒𝚖 TAMUM.\n𝐇𝐢𝐬 𝐅𝐚𝐜𝐞𝐛𝐨𝐨𝐤 𝐢𝐝 :- https://www.facebook.com/Tamim139?mibextid=kFxxJD\nContact Him on WhatsApp :- DJ", threadID);
    };
 
    if ((event.body.toLowerCase() == "ki kor77o!!") || (event.body.toLowerCase() == "কি করো888!!")) {
@@ -72,7 +72,7 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
    };
 
   if ((event.body.toLowerCase() == "bot admin") || (event.body.toLowerCase() == "bot er admin")) {
-     return api.sendMessage("╭──────────────────╮                    এইজে নাও বসের আইডি লিংক - https://www.facebook.com/ABBU ROMIM ╰──────────────────╯", threadID);
+     return api.sendMessage("╭──────────────────╮                    এইজে নাও বসের আইডি লিংক -https://www.facebook.com/Tamim139?mibextid=kFxxJD ╰──────────────────╯", threadID);
    };
 
    if ((event.body.toLowerCase() == "kamon aco") || (event.body.toLowerCase() == "kem8888on acen")) {
@@ -105,10 +105,10 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
    };
 
    if ((event.body.toLowerCase() == "thank you") || (event.body.toLowerCase() == "tnx") || (event.body.toLowerCase() == "thank you bot") || (event.body.toLowerCase() == "thanks Vai")) {
-     return api.sendMessage("️╭──────────────────╮                    amke thanks na bole amr boss Romim k akta gf dew🥰🥰🥰  ╰──────────────────╯", threadID);
+     return api.sendMessage("️╭──────────────────╮                    amke thanks na bole amr boss Tamim k akta gf dew🥰🥰🥰  ╰──────────────────╯", threadID);
    };
 
-   if ((event.body.toLowerCase() == "999900") || (event.body.toLowerCase() == "#") || (event.body.toLowerCase() == "_") || (event.body.toLowerCase() == "??;") || (event.body.toLowerCase() == "&")) {
+   if ((event.body.toLowerCase() == "999900") || (event.body.toLowerCase() == "00888#") || (event.body.toLowerCase() == "_") || (event.body.toLowerCase() == "??;") || (event.body.toLowerCase() == "&")) {
      return api.sendMessage("️╭──────────────────╮                    রাগ করে না সোনা পাখি এতো রাগ শরীরের জন্য ভালো না🥰 ╰──────────────────╯", threadID);
    };
 
@@ -136,11 +136,11 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
      return api.sendMessage("️╭──────────────────╮                    কি গো জান চুপ করে রইলা কেনো 😏😏 ╰──────────────────╯", threadID);
    };
 
-   if ((event.body.toLowerCase() == "!!") || (event.body.toLowerCase() == "$87-")) {
+   if ((event.body.toLowerCase() == "!!bbvv") || (event.body.toLowerCase() == "$87-")) {
      return api.sendMessage("️╭──────────────────╮                    কি গো কলিজা তোমার কি মন খারাপ 🥺 ╰──────────────────╯", threadID);
    };
 
-   if ((event.body.toLowerCase() == "87") || (event.body.toLowerCase() == "09")) {
+   if ((event.body.toLowerCase() == "8hhh7") || (event.body.toLowerCase() == "0poijkhh9")) {
      return api.sendMessage("️╭──────────────────╮                    এইদিকে ওইদিকে কি দেখো জানু আমি তোমার সামনে দেখো😘   ╰──────────────────╯", threadID);
    };
 
@@ -148,8 +148,8 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
      return api.sendMessage("️M Hu Na bby, Meri Pas Aoo M Pyar Karunga☺️", threadID);
    };
 
-   if ((event.body.toLowerCase() == "Romim ar gf ase?") || (event.body.toLowerCase() == "gf")) {
-     return api.sendMessage("╭──────────────────╮                    আরে বলদ আমার বস রমিম আমারে আর নিজেকেই ভালোবাসে এইজে দেখ তার FACEBOOK ID:=https://www.facebook.com/Sexy ╰──────────────────╯", threadID);
+   if ((event.body.toLowerCase() == "Tamim ar gf ase?") || (event.body.toLowerCase() == "gf")) {
+     return api.sendMessage("╭──────────────────╮                    আরে বলদ আমার বস Tamim আমারে আর নিজেকেই ভালোবাসে এইজে দেখ তার FACEBOOK ID:=https://www.facebook.com/Tamim139?mibextid=kFxxJD ╰──────────────────╯", threadID);
    };
 
    if ((event.body.toLowerCase() == "89888") || (event.body.toLowerCase() == "23777") || (event.body.toLowerCase() == "120987") || (event.body.toLowerCase() == "786666") || (event.body.toLowerCase() == "987766") || (event.body.toLowerCase() == "!!")) {
